@@ -1,3 +1,17 @@
 body {
     font-family: 'Roboto', sans-serif;
 }
+
+#header {
+    background-image: url(umatillafeaturedimage.jpg);
+    background-size: cover;
+    text-align: center;
+}
+
+.header-title {
+    margin: 20px;
+}
+
+.header-subtitle {
+    margin: 20px;
+}
