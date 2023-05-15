@@ -29,3 +29,15 @@ body {
     margin: 5px 0 10px 0;
     border-radius: 6px;
 }
+
+.list-columns {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.list-img {
+    width: 150px;
+    border-radius: 50px;
+}
