@@ -36,11 +36,12 @@ body {
     background: #DBD9DB;
     color: orange;
     font-size: 20px;
-    margin-top: -25px;
+    padding: 40px 0 40px 0;
 }
 
 .section-title {
-    padding: 20px;
+    position: relative;
+    bottom: 23px;
 }
 
 .list-columns {
@@ -69,6 +70,8 @@ body {
 #guide-background {
     background: #5F5F5F;
     height: 500px;
+    display: flex;
+    align-items: center;
 }
 
 #guide-card {
@@ -77,11 +80,15 @@ body {
     text-align: center;
     justify-content: space-around;
     width: 500px;
-    margin: 20px auto;
+    margin: auto;
+    padding: 20px;
+    border-radius: 20px;
+    border-bottom: 4px solid black;
 }
 
 .avatar {
     width: 150px;
+    border-radius: 20px;
 }
 
 .card-text {
