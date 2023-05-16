@@ -66,3 +66,25 @@ body {
     font-size: 16px;
 }
 
+#guide-background {
+    background: #5F5F5F;
+    height: 500px;
+}
+
+#guide-card {
+    background: #DBD9DB;
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    width: 500px;
+    margin: 20px auto;
+}
+
+.avatar {
+    width: 150px;
+}
+
+.card-text {
+    font-size: 20px;
+    color: black;
+}
