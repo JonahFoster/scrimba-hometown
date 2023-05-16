@@ -7,7 +7,7 @@ body {
 }
 
 #header {
-    background-image: url(heroimage.jpg);
+    background-image: url("../images/heroimage.jpg");
     background-size: cover;
     display: flex;
     flex-direction: column;
